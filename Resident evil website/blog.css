@@ -1,0 +1,129 @@
+@import url(//db.onlinewebfonts.com/c/b9af90a7736141e51102b20d18fa0c8a?family=Plak);
+@font-face {font-family: "Plak"; src: url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.eot"); src: url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.woff") format("woff"), url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b9af90a7736141e51102b20d18fa0c8a.svg#Plak") format("svg"); }
+@font-face{
+  font-family:"broken-glass-regular";
+  src:url("https://fontsme.com/wp-data/b/203/2203/file/broken-glass.regular.ttf") format("woff"),
+  url("https://fontsme.com/wp-data/b/203/2203/file/broken-glass.regular.ttf") format("opentype"),
+  url("https://fontsme.com/wp-data/b/203/2203/file/broken-glass.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: residentevil4;
+  src: url('/RESIDENTEVILLARGE.TTF');
+}
+@font-face {
+  font-family: brokenglass;
+  src: url('/BrokenGlass.woff');
+}
+.textbody{
+    text-align: center;
+    border: 10px black auto;
+    border-style:none ;
+    margin-left: 375px;
+    margin-right: 375px;
+    background-color: rgb(143, 0, 0);
+    font-family: Plak;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 100px;
+    height: fit-content;
+}
+
+.t1{
+  background-color: rgb(221, 9, 9);
+}
+
+.t2{
+  background-color: #f2f2f2;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56c3d143-8976-4c62-bc33-70f8fede9fc1/d99ovob-e632d074-0c33-42ab-8fbd-9fe96f1fcc5f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU2YzNkMTQzLTg5NzYtNGM2Mi1iYzMzLTcwZjhmZWRlOWZjMVwvZDk5b3ZvYi1lNjMyZDA3NC0wYzMzLTQyYWItOGZiZC05ZmU5NmYxZmNjNWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bTSe76qYubxB8GLEXF9aIc8kZUS2zgPunf_InPG2Gf4);
+}
+
+h1{
+    margin: 0%;
+    font-size: 50px;
+    font-family: residentevil4;
+    padding: 0%;
+}
+.active{
+    position: relative;
+    background-image: url(../logo.png);
+    background-size: cover;
+    height: 20px;
+    width: 50px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 98.5%;
+    top: 2%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: rgb(105, 29, 29);
+    color: white;
+    background-image: url(/logo.png);
+  }
+
+  .topnav a.active:hover{
+    background-color: rgb(59, 16, 16);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+
+}
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
