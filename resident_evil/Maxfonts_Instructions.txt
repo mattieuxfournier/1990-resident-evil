@@ -1,0 +1,10 @@
+
+
+Step 1. Extract the file maxfonts_font_9215.zip
+
+Step 2. Copy the .ttf/Font files to your FONTS directory (Possibly: C:\WINDOWS\Fonts)
+
+
+
+Download website: www.maxfonts.com
+Date downloaded: March 9, 2022, 12:15 am
